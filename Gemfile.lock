@@ -143,6 +143,7 @@ GEM
     mini_portile (0.6.1)
     minitest (5.4.3)
     multi_json (1.10.1)
+    nexmo (2.0.0)
     nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
     nprogress-rails (0.1.6.3)
@@ -276,6 +277,7 @@ DEPENDENCIES
   jquery-turbolinks
   launchy
   letter_opener
+  nexmo
   nprogress-rails
   pg
   quiet_assets

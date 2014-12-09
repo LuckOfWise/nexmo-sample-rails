@@ -20,6 +20,7 @@ gem 'jquery-turbolinks'
 gem 'nprogress-rails'
 gem 'compass-rails'
 gem 'font-awesome-rails'
+gem 'nexmo'
 
 group :development do
   gem 'better_errors'
