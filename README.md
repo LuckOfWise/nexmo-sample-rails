@@ -1,6 +1,8 @@
 Nexmo Sample
 ================
 
+[NEXMO](https://www.nexmo.com/)を利用した電話番号の認証のサンプルプロジェクト
+
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
@@ -23,7 +25,7 @@ Ruby on Rails
 
 This application requires:
 
-- Ruby 2.1.3
+- Ruby 2.1.5
 - Rails 4.1.6
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
