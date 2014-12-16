@@ -15,6 +15,10 @@ class User < ActiveRecord::Base
     Nexmo::Client.new.send_message(from: 'Ruby', to: phone_number_to_send, text: send_message_text, type: 'unicode' )
   end
 
+  def call_verification_code!
+    Nexmo::Client.new.initiate_tts_call(from: 'Ruby', to: phone_number_to_send, text: send_message_text, type: 'unicode' )
+  end
+
   def phone_number_to_send
     "+81#{self.phone_number.gsub('-', '')[1..10]}"
   end

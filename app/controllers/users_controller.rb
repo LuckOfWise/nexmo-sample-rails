@@ -15,6 +15,11 @@ class UsersController < ApplicationController
     end
   end
 
+  def call_verification_code
+    @user.call_verification_code!
+    redirect_to verification_code_users_url, notice: '認証コードを電話でお知らせします。'
+  end
+
   def verification_code
   end
 
